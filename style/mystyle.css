@@ -75,8 +75,11 @@ details p {
     margin: 10px;
 }
 
+table {
+    margin: 0 auto;
+}
+
 thead {
-    background-color: rgb(26, 26, 26);
     color: white;
 }
 
@@ -86,4 +89,16 @@ thead th {
 
 tbody tr td:nth-child(3), td:nth-child(4), td:nth-child(5), td:nth-child(6) {
     text-align: center;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: lightgray;
+}
+
+.stclass {
+    width: min-content;
+    padding: 5px 30px;
+    color: white;
+    border: 10px double;
+    border-radius: 10px;
 }
